@@ -1,0 +1,19 @@
+!SESSION 2019-10-03 18:06:38.078 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.6 Windows 7 amd64-64 Compressed References 20170718_357001 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR10_20170718_1208_B357001
+JIT  - r11_20170718_357001
+GC   - R26_Java726_SR10_20170718_1208_B357001_CMPRSS
+J9CL - 20170718_357001
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  accept --verbose --overwrite-uncommitted --accept-missing-changesets --no-merge --repository-uri https://clm.rational.oit.va.gov/ccm --target TASCore_documents_wksp_git215 --changes _5_V8IGgfEei9C-jimNSSzA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault accept --verbose --overwrite-uncommitted --accept-missing-changesets --no-merge --repository-uri https://clm.rational.oit.va.gov/ccm --target TASCore_documents_wksp_git215 --changes _5_V8IGgfEei9C-jimNSSzA
+
+!ENTRY org.eclipse.osgi 4 0 2019-10-03 18:06:51.962
+!MESSAGE An unexpected runtime error has occurred.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.plugins.PluginRegistry$RegistryListener.bundleChanged(PluginRegistry.java:191)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:847)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
